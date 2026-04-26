@@ -13,13 +13,13 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/Aishmal123/backend-practice/issues"
   },
   "homepage": "https://github.com/Aishmal123/backend-practice#readme",
   "dependencies": {
     "express": "^5.2.1",
-    "moongoose": "^0.0.5"
+    "mongoose": "^0.0.5"
   }
 }
