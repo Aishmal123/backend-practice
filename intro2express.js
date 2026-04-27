@@ -7,12 +7,18 @@ app.get('/',(req,res)=>{
     res.send('you are achieving it');
     
 });
-app.get('/about',(req,res)=>{
+app.get('/about/:slug',(req,res)=>{
+    console.log(req.params);
+    console.log(req.query);
     console.log("here is the basic information of your about page")
     res.send("here is the basic information of your about page")
 })
 app.get('/contact',(req,res)=>{
        console.log("here is the basic information of your about page")
+    res.send("here is the basic information of your contact page")
+})
+app.get('/sign-In',(req,res)=>{
+    console.log("here is the basic information of your about page")
     res.send("here is the basic information of your contact page")
 })
 app.listen(port,()=>{
